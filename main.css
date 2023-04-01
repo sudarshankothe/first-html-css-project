@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Noto+Sans+Devanagari:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: bisque;
+  font-size: 20px;
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-image: linear-gradient(#033747, #012733);
+}
+nav .logo p {
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.logo p:hover {
+  color: orangered;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #ff8c69;
+}
+.wallpaper img {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/*index.html css end from here */
+
+.rajgad {
+  /*rajgad.html css start from here */
+  text-align: center;
+  color: rgb(255, 0, 255);
+  /*text-shadow: 0px 0px 23px rgb(255, 255, 255) ;*/
+  background-color: aqua;
+  outline: 2px solid black;
+  font-family: "Yantramanav", sans-serif;
+  margin: 20px 0px 20px;
+}
+
+.buruj {
+  float: right;
+  outline: 2px solid black;
+  margin: 20px 20px 10px 0px;
+}
+
+.paratwo img {
+  float: right;
+  width: 300px;
+  margin: 20px 20px 10px 10px;
+  outline: 2px solid rgb(0, 0, 0);
+}
+.paraone .paratwo {
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+.paraone {
+  margin-bottom: 5px;
+}
+.paratwo {
+  margin-bottom: 10px;
+}
+.btn {
+  width: 120px;
+  height: 35px;
+  background-color: rgb(255, 98, 7);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.btn a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn a:hover {
+  color: rgb(124, 0, 0);
+  background-color: rgb(252, 252, 252);
+}
+/*rajgad.html css end from here */
+
+/*raigad.html css start from here */
+
+.h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(160, 160, 159);
+  width: 100%;
+  text-shadow: 5px 5px 5px rgb(255, 3, 3);
+  padding-top: 10px;
+}
+.img {
+  float: right;
+  width: 500px;
+  height: 250;
+  outline: auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.p {
+  background-color: rgb(255, 220, 173);
+}
+.ptwo {
+  background-color: rgb(255, 220, 173);
+}
+h2 {
+  background-color: aqua;
+  text-align: center;
+}
+.btn {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(255, 98, 7);
+  border-radius: 20px;
+}
+.btn a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn a:hover {
+  color: rgb(124, 0, 0);
+  background-color: rgb(252, 252, 252);
+}
+
+/*raigad.html css end from here */
+
+/*torna.html css start from here */
+.torna {
+  background-color: rgb(0, 0, 0);
+  outline: 2px SOLID black;
+  color: rgb(216, 216, 216);
+  text-align: center;
+  text-shadow: 5px 3px 5px rgb(231, 45, 45);
+}
+.tornaimg {
+  float: right;
+  border: 2px solid black;
+  margin-top: 10px 5px;
+}
+.torna-para {
+  margin-top: 20px;
+}
+ul {
+  color: rgb(4, 0, 212);
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+li {
+  color: blueviolet;
+}
+.video {
+  float: right;
+  outline: 2px solid black;
+  margin-left: 14px;
+  margin-top: 45px;
+}
+.heading2 {
+  background-color: #180d0a;
+  text-align: center;
+  color: #fff;
+  border-bottom: 2px solid black;
+}
+/*torna.html css end from here */
+
+/*sinhagad.html css start from here */
+.sinhagad {
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  font-family: "Khula", sans-serif;
+  padding-top: 5px;
+}
+img {
+  float: right;
+  width: 500px;
+  border: 2px solid black;
+  margin: 15px 10px 10px;
+}
+
+.headingtwo {
+  background-color: aqua;
+  text-align: center;
+}
+.sinhagadpara {
+  padding-top: 15px;
+}
+@media only screen and (max-width: 1170px) {
+  nav {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

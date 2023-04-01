@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Noto+Sans+Devanagari:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+.h1 {
+  color: rgb(255 106 0);
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgb(160, 160, 159);
+  width: 100%;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  padding-top: 10px;
+}
+.img{
+  float: right;
+  width: 200;
+  height: 250;
+  margin-top: 45px;
+  outline: 2px solid black;
+
+}
+.p {
+  background-color: rgb(255, 220, 173);
+}
+.ptwo {
+  background-color: rgb(255, 220, 173);
+}
+h2 {
+  background-color: aqua;
+  text-align: center;
+  padding-top: 10px;
+}
+.btn {
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(255, 98, 7);
+  border-radius: 20px;
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.btn a:hover{
+  color: rgb(124, 0, 0);
+  background-color: rgb(252, 252, 252);
+}
+/*.home-button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid blue;
+  color: #fff;
+  text-decoration: none;
+}
+.home-button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: aqua;
+}
+.raigad {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid blue;
+  color: #fff;
+  text-decoration: none;
+}
+*/
